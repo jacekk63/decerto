@@ -93,6 +93,7 @@ Second data source RANDOMLEN       9 8 5 3 3 8 3 7 7
 Result data:                       9 8 5 3 3 8 3 7 7
 
 
+
 Connecting data from INTERNAL and JAVA data sources.
 
 First data source INTERNAL         9 8 5 3 3 8 3 7 7
@@ -100,6 +101,7 @@ First data source INTERNAL         9 8 5 3 3 8 3 7 7
 Second data source JAVA            17 12 7 15 18 10 16 17 19 8
 
 Result data:                       153 96 35 45 54 80 48 119 133 8
+
 
 
 Connecting data from INTERNAL and REST data sources.
@@ -111,6 +113,7 @@ Second data source REST            8 10 15 13 8 9 14 7 14 17
 Result data:                       1224 960 525 585 432 720 672 833 1862 136
 
 
+
 Connecting data from INTERNAL and STRING data sources.
 
 First data source INTERNAL         1224 960 525 585 432 720 672 833 1862 136
@@ -120,6 +123,7 @@ Second data source STRING          O C
 Result data:                       1224O 960C 525 585 432 720 672 833 1862 136
 
 
+
 Connecting data from INTERNAL and EMPTY data sources.
 
 First data source INTERNAL         1224O 960C 525 585 432 720 672 833 1862 136
@@ -127,6 +131,7 @@ First data source INTERNAL         1224O 960C 525 585 432 720 672 833 1862 136
 Second data source EMPTY
 
 Result data:                       1224O 960C 525 585 432 720 672 833 1862 136
+
 
 
 Program finished.
