@@ -28,6 +28,9 @@ public class DataSourceParameters {
     private void extractCommonParameters(String[] args) {
 
         displayIntro();
+        if (args == null || args.length == 0) {
+            return;
+        }
 
         System.out.println("Parsing program arguments. ");
         int min = minInt;
