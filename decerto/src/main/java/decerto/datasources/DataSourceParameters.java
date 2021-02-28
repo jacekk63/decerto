@@ -78,7 +78,7 @@ public class DataSourceParameters {
     private void displayIntro() {
         System.out.println();
         System.out.println();
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println("###################################################################################################");
         System.out.println("Methods, Strategies and Data Sources are instantiated by Reflection (each level in system dependent order).");
         System.out.println("Program arguments are separated by Space character. Unknown arguments will be ignored.");
         System.out.println("Program arguments will be passed to Methods, Strategies and Data Sources.");
