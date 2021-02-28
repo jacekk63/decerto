@@ -63,7 +63,7 @@ Example:
 	java -jar decerto-0.0.1-SNAPSHOT.jar min=5 REST bleble elements=10 max=20 dataSources=REST,JAVA,EMPTY,RANDOMLEN,STRING strategy=INTMULTIPLY
 can produce output like that:
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+###########################################################################################################################################
 >>>>>>Applying BASE_METHOD method<<<<<<
 
 >>>Applying INTMULTIPLY strategy<<<
@@ -93,7 +93,7 @@ Second data source EMPTY
 Result data:                       1224O 960C 525 585 432 720 672 833 1862 136
 
 Program finished.
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+###########################################################################################################################################
 
 As we can see Base Agregation method is used as well as INTMULTIPLY strategy.
 Afer each Data Source connection program displays partially results.
