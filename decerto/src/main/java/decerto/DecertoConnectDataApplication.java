@@ -43,7 +43,7 @@ public class DecertoConnectDataApplication {
         System.out.println();
         System.out.println("Program finished.");
         System.out.println();
-        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
+        System.out.println("###################################################################################################");
 //         System.exit(0);
     }
 
