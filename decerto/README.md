@@ -83,6 +83,7 @@ can produce output like that:
 ######Applying BASE_METHOD method######
 
 ###Applying INTMULTIPLY strategy###
+
 Connecting data from INTERNAL and RANDOMLEN data sources.
 First data source INTERNAL
 Second data source RANDOMLEN       9 8 5 3 3 8 3 7 7
