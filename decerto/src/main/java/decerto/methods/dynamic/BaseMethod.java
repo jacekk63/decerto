@@ -32,14 +32,14 @@ public class BaseMethod implements MethodIfc {
                             List<CommonDynamicIfc> listStrategies) {
         System.out.println();
         System.out.println();
-        System.out.println(">>>>>>Applying " + getIdentifier() + " method<<<<<<");
+        System.out.println("######Applying " + getIdentifier() + " method######");
 
         //data from data-sources will be connected to result list
         List<String> result = new ArrayList<>();
 
         for (CommonDynamicIfc strategy : listStrategies) {
             System.out.println();
-            System.out.println(">>>Applying " + strategy.getIdentifier() + " strategy<<<");
+            System.out.println("###Applying " + strategy.getIdentifier() + " strategy###");
             for (CommonDynamicIfc listDataSource : listDataSources) {
                 CommonDynamicIfc firstDs = getDataSourceFromList(result);
                 result = connectDataSources(dataSourceParameters, firstDs, listDataSource, strategy);
