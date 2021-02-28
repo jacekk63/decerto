@@ -4,7 +4,9 @@ Simply program that connecting data from different sources and types, using diff
 Used Java, Spring and Reflections.
 Verified compatability with Java 1.8 and 11.
 
-Upload sources from GitHub using https://github.com/jacekk63/decerto.git
+Upload sources from GitHub using:
+git clone https://github.com/jacekk63/decerto.git
+
 To compile open Command Line window (preferably GitBash), go to project root foder.
 Then compile sources using Maven command:
 mvn clean install
