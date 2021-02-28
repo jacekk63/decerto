@@ -138,10 +138,16 @@ Program finished.
 ###################################################################################################
 
 As we can see Base Agregation method is used as well as INTMULTIPLY strategy.
+
 Afer each Data Source connection program displays partially results.
-Pay attention that elements that are integers are connected as applied strategy defines. In this case are multiply. 
+
+Pay attention that elements that are integers are connected as applied strategy defines. In this case are multiply.
+
 Note that one of the Data Source is STRING. This Data Source provide letters. As we cannot multiply int with letters such elements are simply concatenated.
+
 There is one Data Source that produce no elements. Program works as designed ignoring such Data Source.
+
 So far math operations are executed on int elements. Be aware to provide such data values and operation that will produce results fits int limit. 
+
 Program can connect Data Sources with different length.
 
